@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Playfair+Display:400,700);
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+
+.unblocker {
+	text-align: center;
+	margin: 40px auto;
+	max-width: 650px;
+}
+
+.unblocker h1 {
+	font-family: Lobster, cursive;
+	font-size: 3.5em;
+	margin: 0 0 30px;
+	padding: 0;
+	color: #6f42c1;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.20);
+}
+
+p {
+	color: #3e3e3e;
+	line-height: 1.8em;
+	font-size: 14px;
+	margin: 0 0 50px;
+}
+
+h1:after {
+	content: '';
+	display: block;
+	margin: 1px auto;
+	width: 90px;
+	border-bottom: 3px solid #6f42c1;
+}
+
+input[type="text"] {
+	padding: 16px 18px;
+	border: 1px solid #e1e9f0;
+	border-radius: 4px;
+	outline: none;
+	margin: 0;
+	font-size: 1em;
+	width: 100%;
+}
+
+/* Button */
+.btn {
+	text-transform: uppercase;
+	border: none;
+	background: #3498db;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+	font-size: 1.2em;
+	color: #fff;
+	padding: 16px 25px;
+	margin: 0;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.12);
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.22);
+	width: 160px;
+	transition: box-shadow 0.15s ease;
+}
+
+
+
+.btn:hover {
+	outline: none;
+	cursor: pointer;
+	opacity: 0.85;
+}
+
+.btn:active {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.30);
+}
+/* END Button */
+.unblocker button {
+	display: block;
+	margin: 60px auto 0;
+	width: 160px;
+}
+
+@media (max-width: 1000px) {
+	.unblocker h1 {
+		font-size: 3em;
+	}
+
+	p {
+		text-align: justify;
+		width: 85%;
+		margin: 30px auto;
+		line-height: 1.6em;
+		text-align: start;
+		position: fixed;
+	}
+
+	input[type="text"] {
+		border: 1px solid #e1e9f0;
+	}
+
+	#url {
+		border-right: none;
+
+	}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Responsive layout - makes the content narrower on small screens */
+@media (max-width: 600px) {
+	.unblocker {
+		width: 100% !important;
+	}
+
+	#url {
+		border-radius: 4px 0 0 4px!important;
+	}
+
+
+}
+/*END - Responsive*/
+
+* {
+	box-sizing: border-box;
+}
+body {
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Roboto';
+}
+h1 {
+	color: #222222;
+	text-align: center;
+}
